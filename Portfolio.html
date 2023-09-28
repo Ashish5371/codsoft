@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Portfolio</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(4, 4, 36);
+        color: white;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(31, 31, 83);
+    }
+    .imageicon img{
+        width: 30%;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: pink;
+        font-size: 1.05rem;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+    }
+    .firstsection > div{
+        width: 30%;
+    }
+    .leftsection{
+        font-size: 2.5rem;
+        margin: 80px 0;
+    }
+    .leftsection .buttons{
+        padding: 30px 0;
+    }
+    .leftsection .btn{
+        padding: 12px 4px;
+        background-color: rgb(87, 87, 226);
+        color: white;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 22px;
+        cursor: pointer;
+
+    }
+    .rightsection img{
+        width: 67%;
+        margin: 70px 0;
+        border-radius: 50px;
+        border: 2px solid white;
+        
+    }
+    .purple{
+        color: rgb(170, 109, 227);
+    }
+    #element{
+        color: rgb(170, 109, 227);
+    }
+
+    .secondsection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+    main hr{
+        border: 0;
+        background: rgb(128, 128, 231);
+        height: 1.2px;
+        margin: 50px 84px;
+    }
+    .secondsection h1{
+        font-size: 1.9rem;
+    }
+    .text-gray{
+        color: gray;
+    }
+    .secondsection .box{
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 45px 0;
+        display: flex;
+    }
+    .secondsection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+    }
+    .image-top{
+        width: 25px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+    .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+
+    }
+    .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: grey;
+        width: 150px;
+        font-size: 9px;
+    }
+
+    .image-top2{
+        width: 20px;
+        position: relative;
+        top: -39px;
+        left: -9px;
+    }
+    .image-top3{
+        width: 50px;
+        position: relative;
+        top: -35px;
+        left: -16px;
+    }
+    .image-top4{
+        width: 28px;
+        position: relative;
+        top: -25px;
+        left: -5px;
+    }
+
+    footer{
+        background-color: rgb(8, 8, 8);
+        
+    }
+
+    .footer{
+        display: flex;
+        padding: 30px 122px ;
+        justify-content: space-evenly;
+    }
+
+.footer ul{
+    list-style: none;
+    padding: ;
+
+}
+footer .footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
+
+</style>
+<body>
+    <header>
+            <nav>
+                
+                <div class="left">Ashish Portfolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/"> Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">Projects</a></li>
+                        <li><a href="/">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="imageicon"><img src="ashish.png" alt=""></div>
+            </nav>
+            
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Ashish</span>
+                <div>and I am a Web Passionate</div>
+                
+                <span id="element"></span>
+                <div class="buttons"> 
+                    <button class="btn"> Download Resume </button>
+                    <button class="btn"> Visit Github </button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bestashish.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical"> <img class="image-top" src="c.png" alt="">
+                    <div class="vertical-title">C Programming Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit non deleniti placeat expedita. Temporibus fugiat fugit maiores ab laudantium dolorem, voluptas dolorum voluptatem.</div>
+                </div>
+                <div class="vertical"><img class="image-top" src="c++.png" alt="">
+                    <div class="vertical-title">C++ Programming Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit non deleniti placeat expedita. Temporibus fugiat fugit maiores ab laudantium dolorem, voluptas dolorum voluptatem.</div>
+                
+                </div>
+                <div class="vertical"><img class="image-top2" src="ja.png" alt="">
+                    <div class="vertical-title">Java Programming Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit non deleniti placeat expedita. Temporibus fugiat fugit maiores ab laudantium dolorem, voluptas dolorum voluptatem.</div>
+                
+                </div>
+                <div class="vertical"><img class="image-top3" src="py.png" alt="">
+                    <div class="vertical-title">Python Programming Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit non deleniti placeat expedita. Temporibus fugiat fugit maiores ab laudantium dolorem, voluptas dolorum voluptatem.</div>
+               
+                </div>
+                <div class="vertical"><img class="image-top4" src="js-css-html.png" alt="">
+                    <div class="vertical-title">CSS HTML JAVASCRIPT Programming Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit non deleniti placeat expedita. Temporibus fugiat fugit maiores ab laudantium dolorem, voluptas dolorum voluptatem.</div>
+                
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Ashish Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                    <li>Whatsapp</li>
+                    <li>Linkedin</li>
+                </ul>
+            </div>
+        </div>
+            <div class="footer-rights">
+                Copyright &#169; ashishportfolio.com | All Rights Reserved
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['WEB DEVELOPER', 'CODER','WEB DESIGNER','STUDENT'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
